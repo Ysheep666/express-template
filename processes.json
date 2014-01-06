@@ -1,0 +1,7 @@
+[{
+  "name": "express-template",
+  "script": "./index.js",
+  "env": {
+    "NODE_ENV": "production"
+  }
+}]

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>{{ yield-title }}{{^yield-title}}{{ yield-sub_title }} | {{ app.name }}{{/yield-title}}</title>
+  {{{ yield-styles }}}
+  {{^yield-styles}}
+    <!-- build:css(.tmp/public) /styles/main.css -->
+    <link rel="stylesheet" href="/styles/main.css">
+    <!-- endbuild -->
+    {{{ yield-sub_styles }}}
+  {{/yield-styles}}
+</head>
+<body>
+  {{{ yield }}}
+  {{{ yield-scripts }}}
+  {{^yield-scripts}}
+    <!-- build:js(public) /scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/components/jquery/jquery.js"></script>
+    <script src="/components/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    {{{ yield-sub_scripts }}}
+  {{/yield-scripts}}
+</body>
+</html>
