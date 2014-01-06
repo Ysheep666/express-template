@@ -58,7 +58,7 @@ github: git@github.com:sadne/express-template.git
 
 #### 使用方法 ####
 
-安装依赖 ```npm install $ bower install```
+安装依赖 ```npm install & bower install```
 
 开发模式运行 ```grunt server```
 
