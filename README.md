@@ -1,7 +1,7 @@
 Express 模板
 ----------
 
-github: git@github.com:sadne/express-template.git
+[https://github.com/sadne/express-template][1]
 
 一个程序的结构清晰，能让我们易于阅读、测试、排错和修改，使开发变得简单，并且增加了可维护性。而 Express 的简洁在有的时候也可能让我们觉得无可奈何，总是不能写出如同 Express 本身一样简洁优雅的代码。
 
@@ -67,4 +67,4 @@ github: git@github.com:sadne/express-template.git
 编译模板和静态文件 ``` grunt or grunt build```
 
 
-
+  [1]: https://github.com/sadne/express-template
