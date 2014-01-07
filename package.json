@@ -7,7 +7,7 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
-    "test": "grunt",
+    "test": "grunt test",
     "travis-cov": {
       "threshold": 90
     }
